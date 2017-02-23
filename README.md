@@ -20,9 +20,9 @@ Los pasos para realizarla son los siguientes:
 
         mkdir quickstart
     
-    2. Clonar el proyecto Herbecon-QuickStart del repositorio de Herbecon:
+    2. Clonar el proyecto:
     
-        git clone http://192.168.0.123/grupo-herbecon/Herbecon-QuickStart quickstart
+        git clone https://github.com/Paulillo16/i18n-quickstart.git i18n-quickstart
 
     3. Situarse en el directorio del proyecto:
         
