@@ -1,0 +1,9 @@
+    <div>
+        <label i18n>Idioma:</label>
+        <a href="#" style="margin-left: 20px" *ngFor="let idioma of idiomas" (click)="estableceIdioma(idioma.codigo)" >{{idioma.descripcion}}</a>
+    </div>
+<br/>
+<button i18n-title title="Pulse para mostrar u ocultar la cabecera" (click)="toggleHeading()" i18n>Mostrar / Ocultar cabecera</button>
+<h1 *ngIf="showHeading" i18n>Hola Angular!</h1>
+<h3 i18n>Lista de Heroes</h3>
+<div *ngFor="let hero of heroes">{{hero}}</div>
